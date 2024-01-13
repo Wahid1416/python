@@ -7,7 +7,7 @@ from openai import OpenAI
 
 client = OpenAI(
     # defaults to os.environ.get("OPENAI_API_KEY")
-    api_key="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",
+    api_key=<API KEY>,
 )
 
 def chat_gpt(prompt):
